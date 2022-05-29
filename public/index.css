@@ -14,8 +14,8 @@
     color: rgb(0, 0, 0);
 }
 .Carousel{
-    width: 45rem;
-    height: 30rem;
+    width: 55vw;
+    height: 75vh;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -25,8 +25,8 @@
     margin-top: 0.5rem;
 }
 .Carousel > img {
-    width: 45rem;
-    height: 30rem;
+    width: 55vw;
+    height: 75vh;
 }
  button {
   margin: 0.5rem;
