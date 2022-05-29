@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Noto+Sans:wght@200&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+.Container {
+     font-family: 'Heebo', sans-serif;
+}
+.Header {
+    background: linear-gradient(to bottom right,aqua,rgb(5, 118, 224));
+    padding: 1rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.Carousel{
+    width: 45rem;
+    height: 30rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+.Carousel > img {
+    width: 45rem;
+    height: 30rem;
+}
+ button {
+  margin: 0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid gray;
+  border-radius: 50%;
+  font-size: x-large;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.buttons {
+    position: relative;
+    top: -55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons > button:hover {
+   border: 2px solid rgb(112, 110, 110);
+   background-color: rgb(214, 205, 205);
+}
